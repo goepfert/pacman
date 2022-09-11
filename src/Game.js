@@ -1,3 +1,7 @@
+/**
+ * heavily inspired by https://github.com/CodingWith-Adam/pacman/blob/main/src/Game.js
+ */
+
 import { createTileMap } from './TileMap.js';
 
 const tileSize = 32;
@@ -13,8 +17,8 @@ let enemies;
 let gameOver;
 let gameWin;
 
-const gameOverSound = new Audio('../sounds/gameOver.wav');
-const gameWinSound = new Audio('../sounds/gameWin.wav');
+const gameOverSound = new Audio('sounds/gameOver.wav');
+const gameWinSound = new Audio('sounds/gameWin.wav');
 
 let gameID = 0;
 

@@ -16,20 +16,20 @@ const createPacman = (x, y, tileSize, velocity, tileMap) => {
 
   let didMove = false;
 
-  const eatGhostSound = new Audio('../sounds/eat_ghost.wav');
+  const eatGhostSound = new Audio('sounds/eat_ghost.wav');
 
   (function loadPacmanImages() {
     const pacmanImage1 = new Image();
-    pacmanImage1.src = '../images/pac0.png';
+    pacmanImage1.src = 'images/pac0.png';
 
     const pacmanImage2 = new Image();
-    pacmanImage2.src = '../images/pac1.png';
+    pacmanImage2.src = 'images/pac1.png';
 
     const pacmanImage3 = new Image();
-    pacmanImage3.src = '../images/pac2.png';
+    pacmanImage3.src = 'images/pac2.png';
 
     const pacmanImage4 = new Image();
-    pacmanImage4.src = '../images/pac1.png';
+    pacmanImage4.src = 'images/pac1.png';
 
     pacmanImages.push(pacmanImage1);
     pacmanImages.push(pacmanImage2);

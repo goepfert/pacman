@@ -36,8 +36,8 @@ const createTileMap = (tileSize) => {
   let powerDotAnimationTimerDefault = 30;
   let powerDotAnimationTimer = powerDotAnimationTimerDefault;
 
-  const wakaSound = new Audio('../sounds/waka.wav');
-  const powerDotSound = new Audio('../sounds/power_dot.wav');
+  const wakaSound = new Audio('sounds/waka.wav');
+  const powerDotSound = new Audio('sounds/power_dot.wav');
 
   let powerDotActive = false;
   let powerDotAboutToExpire = false;

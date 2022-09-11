@@ -17,13 +17,13 @@ const createEnemy = (x, y, tileSize, velocity, tileMap) => {
 
   (function loadEnemyImages() {
     normalGhost = new Image();
-    normalGhost.src = '../images/ghost.png';
+    normalGhost.src = 'images/ghost.png';
 
     scaredGhost1 = new Image();
-    scaredGhost1.src = '../images/scaredGhost.png';
+    scaredGhost1.src = 'images/scaredGhost.png';
 
     scaredGhost2 = new Image();
-    scaredGhost2.src = '../images/scaredGhost2.png';
+    scaredGhost2.src = 'images/scaredGhost2.png';
 
     image = normalGhost;
   })();
